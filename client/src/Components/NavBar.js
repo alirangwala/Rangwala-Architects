@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
   return (
     <div className="NavBar">
-      <div className="profile"></div>
       <nav className="nav">
+        <div className="profile"></div>
         <ul className="nav-items">
           <li className="nav-item">
             <NavLink to="/" activeClassName="active">
@@ -32,10 +32,10 @@ function NavBar() {
             </NavLink>
           </li>
         </ul>
+        <footer className="footer">
+          <p>@2021 Ali Rangwala</p>
+        </footer>
       </nav>
-      <footer className="footer">
-        <p>@2021 Ali Rangwala</p>
-      </footer>
     </div>
   );
 }
