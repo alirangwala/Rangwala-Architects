@@ -1,19 +1,19 @@
 .HomePage{
   position: absolute;
+  min-width: 100%;
+  min-height: 90%;
   top: 50%;
   left: 50%;
   transform:translate(-50%, -50%);
-  width: 80%;
-  header{
     img{
       display: block;
       margin-left: auto;
-      margin-right: auto;    }
-  }
-
+      margin-right: auto;
+      max-width: 100%;
+      height: auto;
+      width: auto\9;
+    }
 }
-
-
 .hero-text{
   span{
     text-align: center;

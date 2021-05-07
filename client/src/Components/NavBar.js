@@ -1,4 +1,6 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import logo from "../images/rangwalalogo.png";
 function NavBar() {
   return (
@@ -6,6 +8,11 @@ function NavBar() {
       <nav className="nav">
         <div className="profile">
           <img src={logo} alt="RANGWALAARCHITECTS" />
+          <div className="icons">
+            <Link className="icon-holder">
+              <FontAwesomeIcon icon={faCoffee} className="icon gh" />
+            </Link>
+          </div>
         </div>
         <ul className="nav-items">
           <li className="nav-item">

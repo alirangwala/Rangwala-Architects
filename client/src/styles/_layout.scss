@@ -10,9 +10,11 @@
     background-color: var(--almostblack);
     width: 84%;
     margin-left: 16%;;
-    min-height: 100vh;
+    min-height: 108vh;
     display: grid;
     position: relative;
+    background-size: cover;
+    background-position: center;
     .content{
       margin: 5rem 10rem;
     }
