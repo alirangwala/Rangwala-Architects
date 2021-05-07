@@ -1,7 +1,16 @@
+import Title from "../Components/Title";
+import ImageSection from "../Components/ImageSection";
+
 function About() {
   return (
     <div className="About">
-      <h1 className="hero-text">About</h1>
+      <Title></Title>
+      <ImageSection />
+      <div className="about-details">
+        <div className="details">
+          <p>Full Name</p>
+        </div>
+      </div>
     </div>
   );
 }

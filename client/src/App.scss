@@ -1,5 +1,9 @@
 @import './styles/layout';
 @import './styles/navbar';
+@import './styles/title';
+@import './styles/typography';
+@import './styles/typography';
+
 
 *{
   padding: 0;
@@ -8,6 +12,7 @@
   --grey: #a4acc4;
   --darkgrey: #2e344e;
   --navy:#0381ff33;
+  --darknavy:#585757;
   --almostblack:  #10121B;
 }
 
@@ -15,4 +20,7 @@ body{
   color:var(--grey);
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 1.2rem;
+}
+span{
+  color:var(--navy);
 }

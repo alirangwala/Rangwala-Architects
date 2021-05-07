@@ -1,9 +1,9 @@
-function Testimonial() {
+function Testimonials() {
   return (
-    <div className="Testimonial">
-      <h1 className="hero-text">Testimonial</h1>
+    <div className="Testimonials">
+      <h1 className="hero-text">Testimonials</h1>
     </div>
   );
 }
 
-export default Testimonial;
+export default Testimonials;

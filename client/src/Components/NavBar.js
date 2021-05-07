@@ -1,10 +1,12 @@
 import { NavLink } from "react-router-dom";
-
+import logo from "../images/rangwalalogo.png";
 function NavBar() {
   return (
     <div className="NavBar">
       <nav className="nav">
-        <div className="profile"></div>
+        <div className="profile">
+          <img src={logo} alt="RANGWALAARCHITECTS" />
+        </div>
         <ul className="nav-items">
           <li className="nav-item">
             <NavLink to="/" activeClassName="active">
