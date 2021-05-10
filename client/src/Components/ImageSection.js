@@ -1,4 +1,3 @@
-import about from "../images/salim.png";
 function ImageSection() {
   return (
     <div className="ImageSection">
